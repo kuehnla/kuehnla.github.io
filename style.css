@@ -57,7 +57,7 @@
 
 .info {
   display: flex;
-  height: 34vh;
+  height: 30vh;
   background-color: rgb(243, 243, 243);
 }
 
@@ -70,7 +70,7 @@
 }
 
 .formIn {
-  height: 36vh;
+  height: 40vh;
   box-shadow: 15px 14px 10px 7px rgb(173, 173, 173);
   border: none;
 }
@@ -101,6 +101,7 @@
   display: flex;
   flex-direction: column;
   width: 300px;
+  padding: 5px 0px 5px 0px;
 }
 
 p.first_name,
@@ -112,6 +113,7 @@ p.phone_number {
   font-size: 10px;
   color: red;
   font-family: Calibri, 'Trebuchet MS', sans-serif;
+  height: 2px;
 }
 
 
@@ -167,6 +169,7 @@ label {
   font-size: 18px;
   font-weight:bold;
   color: white;
+  box-shadow: 1px 1px 10px 1px rgb(196, 196, 196);
 }
 
 #submit:hover {
