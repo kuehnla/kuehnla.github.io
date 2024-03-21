@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/concrete" type="text/css"/> 
+</head>
+<body>
+  <div class="imagearea">
+    <div class="logobar">
+      <img src="/genericglobe.png" height="50%" id="logo">
+      <p>Sugary Stones Subscription Service</p>
+    </div>
+    <div class="source">
+      <p>Photo by <a href="https://unsplash.com/@maryamsicard">Maryam Sicard</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-mixture-of-colorful-gummy-bears-kYohkkd28eE">Unsplash</a></p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="info">
+      <p>This is not a real online service! You know you need something like
+        this in your life to help you realize your deepest dreams. Sign up
+        <em>now</em> to get started. <br><br> You <em>know</em> you want to.
+      </p>
+    </div>
+    <div class="formIn">
+      <p>Let's do this!</p>
+      <div class="form">
+        <form action="/example.com/path" method="post" id="form" name="form">
+          <div class="line">
+            <div class="field">
+              <label for="first_name">FIRST NAME</label>
+              <input type="text" id="first_name" required>
+              <p class="first_name"></p>
+            </div>
+            <div class="field">
+              <label for="last_name">LAST NAME</label>
+              <input type="text" id="last_name" required>
+              <p class="last_name"></p>
+            </div>
+          </div>
+          <div class="line">
+            <div class="field">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" required>
+              <p class="email"></p>
+            </div>
+            <div class="field">
+              <label for="phone_number">PHONE NUMBER</label>
+              <input type="tel" id="phone_number" name="phone_number" required>
+              <p class="phone_number"></p>
+            </div>
+          </div>
+          <div class="line">
+            <div class="field">
+              <label for="user_password">PASSWORD</label>
+              <input type="password" id="user_password" name="password" minlength="8" maxlength="20" required>
+              <p id="nomatch"></p>
+            </div>
+            <div class="field">
+              <label for="user_confirm">CONFIRM PASSWORD</label>
+              <input type="password" id="user_confirm" name="confirmpass" required>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <button id="submit" type="button" form="form">Submit</button>
+
+      <p>Already have an account? <a href="/index.html">Log in</a></p>
+    </div>
+  </div>
+</body>
+</html>
